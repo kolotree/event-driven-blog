@@ -13,7 +13,7 @@ To reduce the complexity and size of the solution, we chose to introduce some re
 - All reservations and ticket sales are done online (no counters),
 - No support for refunds through software,
 - Projection duration includes a duration of a movie, commercials, and cleanup time before another projection,
-- All sets cost the same.
+- All seats cost the same.
 
 We plan to remove these restrictions after the initial implementation and also add some additional features that we found useful but not required in the original scope.
 This way we will show how systems can evolve and how event sourcing enables us to perform design changes without complex migrations.
